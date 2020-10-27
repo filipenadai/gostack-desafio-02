@@ -9,22 +9,27 @@
 O desafio pede para criar uma aplicação e treinar oque foi aprendido em conceitos de Node.JS
 Nele devemos armazenar repositórios, permitiremos listagem, atualização e remoção, e estes repositórios podem receber 'Likes'.
 
-Foi propos 5 rotas com suas respectivas funções: 
+Foi proposto 5 rotas com suas respectivas funções: 
 
-- [x] POST/repositories
-    A rota deve receber alguns atributos como ``` title, url, techs ``` dentro do body da aplicação, e assim cadastrar o repositório. Também salvamos um ``` id ``` no formato ``` "uuid" ``` e um atributo de ```likes``` como valor padrão 0.
+- [x] POST/repositories.
 
-- [x] GET/repositories
-    A rota deve listar todos os repositórios.
+a rota deve receber alguns atributos como ``` title, url, techs ``` dentro do body da aplicação, e assim cadastrar o repositório. Também salvamos um ``` id ``` no formato ``` "uuid" ``` e um atributo de ```likes``` como valor padrão 0.
 
-- [x] PUT/repositories/:id
-    Nessa rota devemos alterar os atributos  ``` title, url, techs ``` do repositório com o ``` id ``` que recebemos como Parâmetro.
+- [x] GET/repositories.
 
-- [x] DELETE/repositories/:id
-    Nessa rota devemos deletar o repositório com o ``` id ``` que recebemos como Parâmetro.
+a rota deve listar todos os repositórios.
 
-- [x] POST/repositories/:id/like
-    A ultima rota da aplicação foi interessante, logo abaixo deixarei o método que usei para fazer este desafio, era preciso adicionar um like no repositório em específico.
+- [x] PUT/repositories/:id.
+
+nessa rota devemos alterar os atributos  ``` title, url, techs ``` do repositório com o ``` id ``` que recebemos como Parâmetro.
+
+- [x] DELETE/repositories/:id.
+
+nessa rota devemos deletar o repositório com o ``` id ``` que recebemos como Parâmetro.
+
+- [x] POST/repositories/:id/like.
+
+a ultima rota da aplicação foi interessante, logo abaixo deixarei o método que usei para fazer este desafio, era preciso adicionar um like no repositório em específico.
 
 ## Minha solução
 
