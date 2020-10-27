@@ -11,25 +11,25 @@ Nele devemos armazenar repositórios, permitiremos listagem, atualização e rem
 
 Foi proposto 5 rotas com suas respectivas funções: 
 
-- [x] POST/repositories.
+- [x] POST/repositories
 
-a rota deve receber alguns atributos como ``` title, url, techs ``` dentro do body da aplicação, e assim cadastrar o repositório. Também salvamos um ``` id ``` no formato ``` "uuid" ``` e um atributo de ```likes``` como valor padrão 0.
+A rota deve receber alguns atributos como ``` title, url, techs ``` dentro do body da aplicação, e assim cadastrar o repositório. Também salvamos um ``` id ``` no formato ``` "uuid" ``` e um atributo de ```likes``` como valor padrão 0.
 
-- [x] GET/repositories.
+- [x] GET/repositories
 
-a rota deve listar todos os repositórios.
+A rota deve listar todos os repositórios.
 
-- [x] PUT/repositories/:id.
+- [x] PUT/repositories/:id
 
-nessa rota devemos alterar os atributos  ``` title, url, techs ``` do repositório com o ``` id ``` que recebemos como Parâmetro.
+Nessa rota devemos alterar os atributos  ``` title, url, techs ``` do repositório com o ``` id ``` que recebemos como Parâmetro.
 
-- [x] DELETE/repositories/:id.
+- [x] DELETE/repositories/:id
 
-nessa rota devemos deletar o repositório com o ``` id ``` que recebemos como Parâmetro.
+Nessa rota devemos deletar o repositório com o ``` id ``` que recebemos como Parâmetro.
 
-- [x] POST/repositories/:id/like.
+- [x] POST/repositories/:id/like
 
-a ultima rota da aplicação foi interessante, logo abaixo deixarei o método que usei para fazer este desafio, era preciso adicionar um like no repositório em específico.
+A ultima rota da aplicação foi interessante, logo abaixo deixarei o método que usei para fazer este desafio, era preciso adicionar um like no repositório em específico.
 
 ## Minha solução
 
