@@ -6,7 +6,7 @@
 
 ## O desafio 
 
-O desafio pede para criar uma aplicação e treinar oque foi aprendido em conceitos de Node.JS
+O desafio pede para criar uma aplicação e treinar o que foi aprendido em conceitos de Node.JS
 Nele devemos armazenar repositórios, permitiremos listagem, atualização e remoção, e estes repositórios podem receber 'Likes'.
 
 Foi proposto 5 rotas com suas respectivas funções: 
